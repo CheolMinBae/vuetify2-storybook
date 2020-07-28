@@ -16,7 +16,7 @@
     "node-sass": "^4.12.0",
     "storybook": "^5.1.11",
     "vue": "^2.6.10",
-    "vuetify": "^2.1.0"
+    "vuetify": "^2.2.26"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -36,7 +36,7 @@
     "sass-loader": "^7.3.1",
     "vue-cli-plugin-vuetify": "^0.6.3",
     "vue-template-compiler": "^2.6.10",
-    "vuetify-loader": "^1.2.2"
+    "vuetify-loader": "^1.4.3"
   },
   "eslintConfig": {
     "root": true,

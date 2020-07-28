@@ -8,7 +8,7 @@ import MyButton from './MyButton';
 import Welcome from './Welcome';
 import { VApp, VDataTable, VBtn } from 'vuetify/lib';
 import HelloWorld from '../src/components/HelloWorld.vue';
-
+import AppBar from '../src/components/common/AppBar.vue';
 
 storiesOf('Welcome', module).add('to Storybook', () => ({
   components: { Welcome },
@@ -39,4 +39,9 @@ storiesOf('Button', module)
     methods: { action: action('clicked') },
   }));
 
+  storiesOf('AppBar', module)
+    .add('default', () => ({
+      components: { AppBar },
+      template: '<app-bar></app-bar>'
+    }));
 /* eslint-enable react/react-in-jsx-scope */
